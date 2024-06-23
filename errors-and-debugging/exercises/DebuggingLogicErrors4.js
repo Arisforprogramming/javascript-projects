@@ -5,6 +5,7 @@
 // Is the program behaving as expected?
 
 let launchReady = false;
+let computerReady =false;
 let fuelLevel = 17000;
 let crewStatus = true;
 let computerStatus = 'green';
@@ -21,17 +22,17 @@ console.log("launchReady = ", launchReady);
 
 if (crewStatus && computerStatus === 'green'){
    console.log('Crew & computer cleared.');
-   launchReady = true;
+   computerReady = true;
 } else {
    console.log('WARNING: Crew or computer not ready!');
-   launchReady = false;
+   computerReady = false;
 }
 
-console.log("launchReady = ", launchReady);
+console.log("computerReady = ", computerReady);
 
-// if (launchReady) {
-//    console.log('10, 9, 8, 7, 6, 5, 4, 3, 2, 1...');
-//    console.log('Liftoff!');
-// } else {
-//    console.log('Launch scrubbed.');
-// }
+if (computerReady) {
+   console.log('10, 9, 8, 7, 6, 5, 4, 3, 2, 1...');
+   console.log('Liftoff!');
+} else {
+   console.log('Launch scrubbed.');
+}

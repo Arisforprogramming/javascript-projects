@@ -29,7 +29,7 @@ let line = "-----------------------------------";
 
 // add logic below to verify all astronauts are ready
 
-if(astronautStatus === "ready"){
+if(!astronautStatus){
 
     (preparedForLiftOff = true);
 
