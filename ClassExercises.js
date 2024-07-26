@@ -52,4 +52,5 @@ console.log(organize1);
 
 let organize2 =  new Novel ("Pride and Prejudice", "Jane Austen", 1813, "1111111111111", 432, 32);
 console.log(organize1);
+console.log("test")
 // Code exercises 4 & 5 here:
