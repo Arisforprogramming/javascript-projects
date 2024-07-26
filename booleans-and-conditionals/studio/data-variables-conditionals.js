@@ -2,7 +2,7 @@
 
 let date =	"Monday 2019-03-18";
 let time = "10:05:34 AM";
-let astronautCount	=15
+let astronautCount	=15;
 let astronautStatus	= "ready";
 let averageAstronautMassKg = 80.7;
 let crewMassKg	= astronautCount * averageAstronautMassKg; 
@@ -29,7 +29,7 @@ let line = "-----------------------------------";
 
 // add logic below to verify all astronauts are ready
 
-if(!astronautStatus){
+if(astronautStatus==="ready" && astronautCount <= 7){
 
     (preparedForLiftOff = true);
 
@@ -73,7 +73,7 @@ if (weatherStatus == "clear"){
 
     (preparedForLiftOff = false);
 };
-
+// Make summary statment 
 // Verify shuttle launch can proceed based on above conditions
 if  (preparedForLiftOff = true) {
  console.log(line);

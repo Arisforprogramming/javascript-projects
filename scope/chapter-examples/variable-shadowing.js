@@ -15,4 +15,4 @@ let name = input.question("Please enter your name: ");
 
 hello(name);
 doubleName(name);
-console.log(name);
+console.log(`1${name}`);

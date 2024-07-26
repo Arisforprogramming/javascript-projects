@@ -27,6 +27,12 @@ class AstronautI {
  
  let fox = new AstronautI('Fox', 7, 12);
  let hippo = new AstronautO('Hippo', 25, 1000);
- 
+
  console.log(fox);
  console.log(hippo);
+ console.log(`\nremoved the" () "\n`);
+ console.log(`call medthod inside${fox}`);
+ console.log(`call medthod outside ${hippo}`);
+ console.log(`\nadded JSON.stringify()\n`);
+ console.log(`call medthod inside${JSON.stringify(fox)}`);
+ console.log(`call medthod outside ${JSON.stringify(hippo)}`);

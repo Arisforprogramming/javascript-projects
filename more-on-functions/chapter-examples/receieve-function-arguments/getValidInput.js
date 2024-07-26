@@ -14,6 +14,18 @@ function getValidInput(prompt, isValid) {
 
 // TODO 1: write a validator 
 // that ensures input starts with "a"
+let isValidLetterA = function(a) {
+
+  // ensure input start with 'a'
+  if (a[0]==="A".toLocaleLowerCase()) {
+  return true;
+  }
+
+  return `false\n`;
+};
+
+console.log(getValidInput('\nPlease add word Input:', isValidLetterA));
+
 
 // TODO 2: write a validator 
 // that ensures input is a vowel
