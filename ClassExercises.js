@@ -41,6 +41,7 @@ class Novel extends Book {
    }
 }
 
+console.log("add work");
 
 
 
