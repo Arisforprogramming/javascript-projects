@@ -1,4 +1,26 @@
 //Declare a class called CrewCandidate with a constructor that takes three parameters—name, mass, and scores. Note that scores will be an array of test results.
+class CrewCandidate {
+    constructor(name,mass,score) {
+        this.name = name; 
+        this.mass = mass ;
+        this.scores =scores ;
+    }
+    addScore(newScore) {
+       this.scores.push(newScore);
+     }
+}
+let babbaBear =  new CrewCandidate("Bubba Bear",135,[88,85,90]);
+let merryMaltese = new CrewCandidate("Merry Maltese",1.5,[ 93, 88, 97]);
+let gladGator = new CrewCandidate("Glad Gator",225,[75, 78,62]);
+
+
+
+
+console.log( merryMaltese);
+console.log( gladGator);
+console.log(addNew);
+bubba.addScore(83);
+console.log(bubba);
 
 
 
