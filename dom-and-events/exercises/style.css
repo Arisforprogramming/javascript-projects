@@ -1,3 +1,17 @@
 h1 {
   text-decoration: underline;
 }
+
+/*
+ #missionAbort {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: initial; /* Set initial background color if you want */
+/*}
+
+/* Hover state styling */
+/*#missionAbort:hover {
+  background-color: red;
+} 
+*/
